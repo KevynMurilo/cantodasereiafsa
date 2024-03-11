@@ -1,0 +1,25 @@
+{
+  "short_name": "Canto da Sereia",
+  "name": "Canto da Sereia",
+  "icons": [
+    {
+      "src": "iconMobile.png",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/png"
+    },
+    {
+      "src": "iconMobile.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "iconMobile.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

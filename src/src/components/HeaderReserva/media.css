@@ -1,0 +1,29 @@
+@media screen and (min-width: 2161px) {
+    #image-right {
+      width: 25%; /* 1/4 da largura do contêiner */
+    }
+  }
+
+  @media screen and (min-width: 4000px) {
+    #image-right {
+      width: 18%;
+      right: 8% /* 1/4 da largura do contêiner */
+    }
+  }
+
+  @media screen and (min-width: 6400px) {
+    #image-right {
+      width: 10%;
+      right: 15% /* 1/4 da largura do contêiner */
+    }
+  }
+
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  
+  .rotate-image img {
+    animation: spin 60s linear infinite; 
+  }
+  

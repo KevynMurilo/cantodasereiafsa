@@ -1,0 +1,13 @@
+/* No final do arquivo de estilos global */
+
+.swiper-button-prev,
+.swiper-button-next {
+  width: 30px; /* Defina o tamanho desejado para os ícones de navegação */
+  height: 30px;
+  color: #000; /* Defina o tamanho desejado para os ícones de navegação */
+}
+
+.swiper-button-prev::after,
+.swiper-button-next::after {
+  font-size: 30px; /* Defina o tamanho do ícone dentro do botão de navegação */
+}
